@@ -58,8 +58,8 @@ public class MainActivity extends RxAppCompatActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn1:
-                retrofitFactory.api().getVersion("123")
-                        .subscribeOn(Schedulers.io())
+                retrofitFactory.api().getVersion()
+                        .subscribeOn(Schedulers.newThread())
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribe(new Observer<VersionBean>() {
                             @Override

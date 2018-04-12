@@ -22,5 +22,5 @@ public interface Api {
     Observable<UserInfoBean> getUserInfo(@Query("acess_token") String acess_token);
 
     @GET("getCurrentVersion")
-    Observable<VersionBean> getVersion(@Query("version") String version);
+    Observable<VersionBean> getVersion();
 }
