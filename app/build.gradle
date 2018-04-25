@@ -41,6 +41,18 @@ dependencies {
     implementation 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.1'
     //注解
     implementation 'com.jakewharton:butterknife:8.8.1'
+    //recyclerView的adapter
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.38'
+    //侧滑删除
+    implementation 'com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0'
+    //圆形图片
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    //recyclerView 与sdk版本同步
+    implementation 'com.android.support:recyclerview-v7:27.1.0'
+    //glide 使用方法https://blog.csdn.net/u013005791/article/details/74532091
+    implementation 'com.github.bumptech.glide:glide:4.5.0'
+//    implementation 'com.github.bumptech.glide:compiler:4.5.0'
+
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 
 

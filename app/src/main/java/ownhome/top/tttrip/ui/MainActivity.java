@@ -1,5 +1,6 @@
 package ownhome.top.tttrip.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
@@ -81,6 +82,7 @@ public class MainActivity extends RxAppCompatActivity {
 
                             }
                         });
+                startActivity(new Intent(this,TripRecordActivity.class));
 
 //                api.getToken("111", "2222").flatMap(new Function<LoginBean, ObservableSource<UserInfoBean>>() {
 //                    @Override
